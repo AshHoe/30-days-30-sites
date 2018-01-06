@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <title>You're invited to my birthday party!</title>
+  <meta name="Ash Hoe" content="Birthday Party">
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+  <link rel="stylesheet" href="css/style.css">
+  <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet">
+  <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="css/animate.css">
+</head>
+
+<body>
+
+
+  <div class="container-fluid">
+    <div class="row section-1 wow fadeIn">
+      <div class="col-sm-12">
+        <img class="blink" src="img/blink.png" alt="">
+        <h2>You’re invited to my</h2>
+        <h1>Birthday Party</h1>
+        <p><span><i class="fa fa-calendar-o" aria-hidden="true"></i>  1 January 2018</span> | <span> <i class="fa fa-clock-o" aria-hidden="true"></i>  20:00</span> |  <span><i class="fa fa-map-marker" aria-hidden="true"></i> URBANO e FRESCO, PJ</span></p>
+        <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#rsvp">
+          RSVP
+        </button>
+        <img class="cake" src="img/birthday-cake.png" alt="">
+        <div class="circle"></div>
+      </div>
+    </div>
+
+    <!-- <div class="row section-2">
+        <div class="col-lg-4 col-xs-6 artwork wow fadeIn">
+          <a href="#" data-toggle="modal" data-target="#modal1"><img src="img/image-1.jpg" alt=""></a>
+        </div>
+    </div> -->
+  </div>
+
+
+  <!-- FOOTER STARTS ------------------------------------->
+  <footer>
+  <div class="footer wow fadeIn">
+    <p>Designed & coded with <span class="heart"><i class="fa fa-heart" aria-hidden="true"></i></span> by Ash Hoe</p>
+  </div>
+  </footer>
+  <!-- FOOTER STARTS ------------------------------------->
+
+  <!-- MODAL STARTS ------------------------------------->
+  <div class="modal fade" id="rsvp" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal">&times;</button>
+      </div>
+        <div class="modal-body">
+          <form>
+            <div class="form-group">
+              <label for="usr">Name:</label>
+              <input type="text" class="form-control" id="usr" placeholder="Your Name">
+            </div>
+            <div class="form-group">
+              <label for="">Are you coming?</label>
+              <div class="row">
+                <div class="col-xs-6">
+                  <div class="radio">
+                    <label><input type="radio" name="optradio">Hell Yeah</label>
+                  </div>
+                </div>
+                <div class="col-xs-6">
+                  <div class="radio">
+                    <label><input type="radio" name="optradio">No :(</label>
+                  </div>
+                </div>
+              </div>
+              <div class="button-row">
+                <button type="button" class="btn button-pink" class="close" data-dismiss="modal">
+                  Submit
+                </button>
+              </div>
+
+
+            </div>
+          </form>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- MODAL ENDS ------------------------------------->
+
+  <script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/wow/1.1.2/wow.min.js"></script>
+
+  <script>
+              new WOW().init();
+  </script>
+</body>
+</html>
