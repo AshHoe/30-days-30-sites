@@ -109,11 +109,16 @@ body{
     padding: 30px 140px;
   }
   @include for-size(phone-only) {
+    padding: 10px 20px;
     h1{
-      font-size: 60px;
+      font-size: 50px;
+      margin: 0;
     }
     h2{
       font-size: 26px;
+    }
+    p{
+      font-size: 12px;
     }
     .blink{
       padding: 80px 30px;
@@ -126,14 +131,14 @@ body{
   }
   @media (max-width: 1024px){
     .cake{
-      width: 200px;
+      width: 180px;
       bottom: 142px;
-      margin-left: -160px;
+      margin-left: -150px;
     }
   }
   @media (max-width: 599px){
     .cake{
-      bottom: 80px;
+      bottom: 50px;
     }
   }
   @include for-size(big-desktop-up){
@@ -228,7 +233,8 @@ footer{
     color: white;
   }
   @include for-size(phone-only) {
-    padding: 10px 0;
+    padding: 2px 0;
+    border-top-width: 6px;
   }
 }
 /*----------------------------- FOOTER ENDS --*/
